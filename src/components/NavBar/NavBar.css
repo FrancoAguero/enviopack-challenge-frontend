@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navContainer {
+    background-color: rgb(41, 40, 40);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    height: 3rem;
+    padding: 1rem;
+}
+
+.navListContainer {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+}
+
+.navListContainer a {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navListContainer li:hover {
+    cursor: pointer;
+}
+
+.navlistData {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-left: auto;
+    font-weight: 100;
+}

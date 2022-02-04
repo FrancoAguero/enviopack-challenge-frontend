@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.productLisContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    width: 50%;
+}
+
+.filtersContainer {
+    margin: 1rem 0;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtersContainer > input {
+    padding: 0.5rem;
+    border: rgb(167, 167, 167) solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    height: 2rem;
+    width: 30%;
+}
+
+.listContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 35rem;
+}
+
+.paginationContainer {
+    margin: 1rem 0;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paginationContainer > button {
+    border: none;
+    background-color: rgb(41, 40, 40);
+    width: 6rem;
+    height: 2rem;
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.paginationContainer > button:hover {
+    background-color: rgb(24, 24, 24);
+    cursor: pointer;
+}
+
+
+.filtersContainer > input:focus {
+    outline: rgb(76, 39, 211) solid 1.5px;
+    border: none;
+}
+
+.filtersContainer > select {
+    padding: 0.5rem;
+    border: rgb(167, 167, 167) solid;
+    border-width: 1px;
+    border-radius: 0.3rem;
+    height: 2rem;
+    width: 30%;
+}
+
+.filtersContainer > select:focus {
+    outline: rgb(76, 39, 211) solid 1.5px;
+    border: none;
+}
